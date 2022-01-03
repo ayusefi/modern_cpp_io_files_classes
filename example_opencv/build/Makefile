@@ -123,6 +123,19 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named sift_extraction_with_opencv
+
+# Build rule for target.
+sift_extraction_with_opencv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sift_extraction_with_opencv
+.PHONY : sift_extraction_with_opencv
+
+# fast build rule for target.
+sift_extraction_with_opencv/fast:
+	$(MAKE) -f CMakeFiles/sift_extraction_with_opencv.dir/build.make CMakeFiles/sift_extraction_with_opencv.dir/build
+.PHONY : sift_extraction_with_opencv/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +163,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sift_extraction_with_opencv.o: sift_extraction_with_opencv.cpp.o
+
+.PHONY : sift_extraction_with_opencv.o
+
+# target to build an object file
+sift_extraction_with_opencv.cpp.o:
+	$(MAKE) -f CMakeFiles/sift_extraction_with_opencv.dir/build.make CMakeFiles/sift_extraction_with_opencv.dir/sift_extraction_with_opencv.cpp.o
+.PHONY : sift_extraction_with_opencv.cpp.o
+
+sift_extraction_with_opencv.i: sift_extraction_with_opencv.cpp.i
+
+.PHONY : sift_extraction_with_opencv.i
+
+# target to preprocess a source file
+sift_extraction_with_opencv.cpp.i:
+	$(MAKE) -f CMakeFiles/sift_extraction_with_opencv.dir/build.make CMakeFiles/sift_extraction_with_opencv.dir/sift_extraction_with_opencv.cpp.i
+.PHONY : sift_extraction_with_opencv.cpp.i
+
+sift_extraction_with_opencv.s: sift_extraction_with_opencv.cpp.s
+
+.PHONY : sift_extraction_with_opencv.s
+
+# target to generate assembly for a file
+sift_extraction_with_opencv.cpp.s:
+	$(MAKE) -f CMakeFiles/sift_extraction_with_opencv.dir/build.make CMakeFiles/sift_extraction_with_opencv.dir/sift_extraction_with_opencv.cpp.s
+.PHONY : sift_extraction_with_opencv.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... edit_cache"
+	@echo "... main"
+	@echo "... sift_extraction_with_opencv"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sift_extraction_with_opencv.o"
+	@echo "... sift_extraction_with_opencv.i"
+	@echo "... sift_extraction_with_opencv.s"
 .PHONY : help
 
 
