@@ -1,3 +1,13 @@
+ /*
+ *  This is the default license template.
+ *  
+ *  File: convert_dataset.cpp
+ *  Author: abdullah
+ *  Copyright (c) 2022 abdullah
+ *  
+ *  To edit this license information: Press Ctrl+Shift+P and press 'Create new License Template...'.
+ */
+
 #include <opencv2/opencv.hpp>
 #include "homework_5.h"
 #include <experimental/filesystem>
@@ -33,7 +43,6 @@ std::vector<cv::Mat> LoadDataset(const std::experimental::filesystem::path& bin_
       ret_vector.emplace_back(Deserialize(p.path()));
       std::cout << p.path() << std::endl;
     }
-    // ret_vector.emplace_back(img_bin);
   }
   return ret_vector;
 }

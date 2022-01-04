@@ -1,3 +1,13 @@
+ /*
+ *  This is the default license template.
+ *  
+ *  File: reading_from_binary_files.cpp
+ *  Author: abdullah
+ *  Copyright (c) 2022 abdullah
+ *  
+ *  To edit this license information: Press Ctrl+Shift+P and press 'Create new License Template...'.
+ */
+
 /* 
  *  This is the default license template.
  *  
