@@ -141,6 +141,7 @@ CMakeFiles/serialize.dir/src/compute_sifts.cpp.o: /usr/local/include/opencv2/xfe
 CMakeFiles/serialize.dir/src/compute_sifts.cpp.o: /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/compute_sifts.hpp
+CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/convert_dataset.hpp
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/homework_5.h
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../include/serialize.hpp
 CMakeFiles/serialize.dir/src/serialize.cpp.o: ../src/serialize.cpp

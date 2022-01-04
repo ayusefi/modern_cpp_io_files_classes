@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5
+CMAKE_SOURCE_DIR = /home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/build
+CMAKE_BINARY_DIR = /home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/build/CMakeFiles /home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/build/CMakeFiles /home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,6 +136,19 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named convert_dataset
+
+# Build rule for target.
+convert_dataset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 convert_dataset
+.PHONY : convert_dataset
+
+# fast build rule for target.
+convert_dataset/fast:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/build
+.PHONY : convert_dataset/fast
+
 src/compute_sifts.o: src/compute_sifts.cpp.o
 
 .PHONY : src/compute_sifts.o
@@ -143,6 +156,7 @@ src/compute_sifts.o: src/compute_sifts.cpp.o
 # target to build an object file
 src/compute_sifts.cpp.o:
 	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/src/compute_sifts.cpp.o
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/compute_sifts.cpp.o
 .PHONY : src/compute_sifts.cpp.o
 
 src/compute_sifts.i: src/compute_sifts.cpp.i
@@ -152,6 +166,7 @@ src/compute_sifts.i: src/compute_sifts.cpp.i
 # target to preprocess a source file
 src/compute_sifts.cpp.i:
 	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/src/compute_sifts.cpp.i
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/compute_sifts.cpp.i
 .PHONY : src/compute_sifts.cpp.i
 
 src/compute_sifts.s: src/compute_sifts.cpp.s
@@ -161,7 +176,35 @@ src/compute_sifts.s: src/compute_sifts.cpp.s
 # target to generate assembly for a file
 src/compute_sifts.cpp.s:
 	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/src/compute_sifts.cpp.s
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/compute_sifts.cpp.s
 .PHONY : src/compute_sifts.cpp.s
+
+src/convert_dataset.o: src/convert_dataset.cpp.o
+
+.PHONY : src/convert_dataset.o
+
+# target to build an object file
+src/convert_dataset.cpp.o:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.o
+.PHONY : src/convert_dataset.cpp.o
+
+src/convert_dataset.i: src/convert_dataset.cpp.i
+
+.PHONY : src/convert_dataset.i
+
+# target to preprocess a source file
+src/convert_dataset.cpp.i:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.i
+.PHONY : src/convert_dataset.cpp.i
+
+src/convert_dataset.s: src/convert_dataset.cpp.s
+
+.PHONY : src/convert_dataset.s
+
+# target to generate assembly for a file
+src/convert_dataset.cpp.s:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.s
+.PHONY : src/convert_dataset.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -197,6 +240,7 @@ src/serialize.o: src/serialize.cpp.o
 # target to build an object file
 src/serialize.cpp.o:
 	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/src/serialize.cpp.o
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/serialize.cpp.o
 .PHONY : src/serialize.cpp.o
 
 src/serialize.i: src/serialize.cpp.i
@@ -206,6 +250,7 @@ src/serialize.i: src/serialize.cpp.i
 # target to preprocess a source file
 src/serialize.cpp.i:
 	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/src/serialize.cpp.i
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/serialize.cpp.i
 .PHONY : src/serialize.cpp.i
 
 src/serialize.s: src/serialize.cpp.s
@@ -215,6 +260,7 @@ src/serialize.s: src/serialize.cpp.s
 # target to generate assembly for a file
 src/serialize.cpp.s:
 	$(MAKE) -f CMakeFiles/serialize.dir/build.make CMakeFiles/serialize.dir/src/serialize.cpp.s
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/serialize.cpp.s
 .PHONY : src/serialize.cpp.s
 
 # Help Target
@@ -227,9 +273,13 @@ help:
 	@echo "... serialize"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... convert_dataset"
 	@echo "... src/compute_sifts.o"
 	@echo "... src/compute_sifts.i"
 	@echo "... src/compute_sifts.s"
+	@echo "... src/convert_dataset.o"
+	@echo "... src/convert_dataset.i"
+	@echo "... src/convert_dataset.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

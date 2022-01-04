@@ -14,5 +14,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_library(serialize src/compute_sifts.cpp src/serialize.cpp) 
 
+add_library(convert_dataset src/convert_dataset.cpp src/serialize.cpp src/compute_sifts.cpp) 
+target_link_libraries(convert_dataset serialize stdc++fs ${OpenCV_LIBS})
+
 add_executable(main src/main.cpp)
-target_link_libraries(main serialize ${OpenCV_LIBS})
+target_link_libraries(main serialize convert_dataset stdc++fs ${OpenCV_LIBS})

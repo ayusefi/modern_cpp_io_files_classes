@@ -3,9 +3,10 @@
 
 CMakeFiles/main.dir/src/main.cpp.o
  ../include/compute_sifts.hpp
+ ../include/convert_dataset.hpp
  ../include/homework_5.h
  ../include/serialize.hpp
- /home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/src/main.cpp
+ /home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/src/main.cpp
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
  /usr/local/include/opencv2/calib3d/calib3d_c.h

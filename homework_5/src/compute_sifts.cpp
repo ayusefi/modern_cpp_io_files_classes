@@ -1,10 +1,10 @@
-/* 
+/*
  *  This is the default license template.
- *  
+ *
  *  File: compute_sifts.cpp
  *  Author: abdullah
  *  Copyright (c) 2022 abdullah
- *  
+ *
  *  To edit this license information: Press Ctrl+Shift+P and press 'Create new License Template...'.
  */
 

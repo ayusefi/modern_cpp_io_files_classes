@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/include 
+CXX_INCLUDES = -I/usr/local/include -I/usr/local/include/opencv -I/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/include 
 

@@ -8,7 +8,13 @@
 
 ../include/compute_sifts.hpp
 
+../include/convert_dataset.hpp
+experimental/filesystem
+-
+
 ../include/homework_5.h
+convert_dataset.hpp
+../include/convert_dataset.hpp
 serialize.hpp
 ../include/serialize.hpp
 compute_sifts.hpp
@@ -16,7 +22,7 @@ compute_sifts.hpp
 
 ../include/serialize.hpp
 
-/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/src/compute_sifts.cpp
+/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/src/compute_sifts.cpp
 tuple
 -
 opencv2/opencv.hpp
@@ -24,11 +30,11 @@ opencv2/opencv.hpp
 opencv2/xfeatures2d.hpp
 -
 
-/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/src/serialize.cpp
+/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/src/serialize.cpp
 opencv2/opencv.hpp
 -
 homework_5.h
-/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/src/homework_5.h
+/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/src/homework_5.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/src/compute_sifts.cpp" "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/build/CMakeFiles/serialize.dir/src/compute_sifts.cpp.o"
-  "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/src/serialize.cpp" "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/homework_5/build/CMakeFiles/serialize.dir/src/serialize.cpp.o"
+  "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/src/compute_sifts.cpp" "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/build/CMakeFiles/serialize.dir/src/compute_sifts.cpp.o"
+  "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/src/serialize.cpp" "/home/abdullah/modern_cpp/modern_cpp_io_files_classes/modern_cpp_io_files_classes/homework_5/build/CMakeFiles/serialize.dir/src/serialize.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
